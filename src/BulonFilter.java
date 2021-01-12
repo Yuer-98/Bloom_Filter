@@ -7,7 +7,7 @@ import java.util.logging.Logger;
  * 7个Hash
  */
 class BulonFilter {
-    //256MB的位图
+    //32MB的位图
     private static final int BIT_SIZE = 1<<28;
     private final int[] hashSeeds = new int[]{31,37,41,43,47,53,69};
     private Hash[] hashes = new Hash[7];
